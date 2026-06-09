@@ -1,0 +1,19 @@
+{
+    "TaskName": "streaming",
+    "Manufacturer": "Brain Products",
+    "PowerLineFrequency": 60.0,
+    "SamplingFrequency": 10000.0,
+    "SoftwareFilters": "n/a",
+    "RecordingDuration": 1417.6957,
+    "RecordingType": "continuous",
+    "EEGReference": "left mastoid",
+    "EEGGround": "right mastoid",
+    "EEGPlacementScheme": "based on the extended 10/20 system",
+    "EEGChannelCount": 1,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 1,
+    "EMGChannelCount": 0,
+    "MiscChannelCount": 1,
+    "TriggerChannelCount": 0,
+    "ManufacturersModelName": "actiCHamp Plus with EP-PreAmp Gain 50"
+}

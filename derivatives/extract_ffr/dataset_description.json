@@ -1,0 +1,10 @@
+{
+    "Name": "extract_ffr",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "derivative",
+    "GeneratedBy": [
+        {
+            "Name": "extract_ffr"
+        }
+    ]
+}
