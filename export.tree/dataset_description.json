@@ -1,0 +1,19 @@
+{
+    "Name": "Auditory Streaming and Interoception",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "John Veillette",
+        "Aditi Joshi",
+        "Ying Li",
+        "Howard Nusbaum"
+    ],
+    "Funding": [
+        "NSF BCS 2024923"
+    ],
+    "EthicsApprovals": [
+        "University of Chicago Social & Behavioral Sciences IRB24-1904"
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds007949.v1.0.0"
+}
