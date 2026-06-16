@@ -1,4 +1,0 @@
-﻿name	type	units	low_cutoff	high_cutoff	description	sampling_frequency	status	status_description
-Fz	EEG	V	0.0	5000.0	ElectroEncephaloGram	10000.0	good	n/a
-ecg	ECG	V	0.0	5000.0	ElectroCardioGram	10000.0	good	n/a
-audio	MISC	n/a	0.0	5000.0	Miscellaneous	10000.0	good	n/a
