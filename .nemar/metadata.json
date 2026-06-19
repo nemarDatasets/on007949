@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Streaming and Interoception",
-  "description": "This dataset comprises auditory neurophysiological recordings collected to investigate the relationship between auditory streaming perception and interoceptive awareness. Participants engaged in auditory tasks while electrophysiological signals were recorded, enabling examination of how the brain processes complex auditory scenes and integrates bodily state information during perception.",
+  "description": "This dataset comprises electroencephalography (EEG) recordings collected to investigate the relationship between auditory streaming—the perceptual organization of sound sequences—and interoceptive awareness. The study examines how the brain processes complex auditory stimuli and integrates this information with internal bodily signals, contributing to our understanding of sensory integration and conscious perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,10 +22,20 @@
       "term": "interoception"
     },
     {
-      "term": "auditory perception"
+      "term": "interoceptive awareness"
     },
     {
-      "term": "electrophysiology"
+      "term": "conscious perception"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Auditory Perception",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
     }
   ],
   "related_identifiers": [
@@ -79,6 +89,6 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "Electrophysiological data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard for EEG. Data acquisition and preprocessing followed established protocols documented in the MNE-BIDS and EEG-BIDS frameworks.",
+  "methods_description": "EEG data were collected from participants during auditory streaming tasks. Data are organized according to the Brain Imaging Data Structure (BIDS) standard for electroencephalography.",
   "source_hash": "2300ac49a355719d3f90304f822eedb7bf4d3d9f86f79798306d3d30a4834717"
 }
