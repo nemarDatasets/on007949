@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Streaming and Interoception",
+  "description": "This dataset comprises auditory neurophysiological recordings collected to investigate the relationship between auditory streaming perception and interoceptive awareness. Participants engaged in auditory tasks while electrophysiological signals were recorded, enabling examination of how the brain processes complex auditory scenes and integrates bodily state information during perception.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,24 @@
     "Ying Li": {},
     "Howard Nusbaum": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007949.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "auditory streaming"
+    },
+    {
+      "term": "interoception"
+    },
+    {
+      "term": "auditory perception"
+    },
+    {
+      "term": "electrophysiology"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007949",
       "identifier_type": "URL",
@@ -35,6 +48,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007949.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -44,12 +62,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "7.8 GB (177 files)"
   ],
   "formats": [
     ".eeg",
@@ -58,30 +76,9 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises auditory streaming and interoception recordings collected to investigate the relationship between auditory perceptual organization and interoceptive awareness. The study employs electroencephalography to examine neural correlates of auditory streaming phenomena and their potential association with bodily sensation perception.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "auditory streaming"
-    },
-    {
-      "term": "interoception"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "auditory perception"
-    },
-    {
-      "term": "neural correlates"
-    }
-  ],
-  "source_hash": "cef2eaa8da6a084443f3fb98071a33bb627da093c625990ac6dc6dee692375e1"
+  "methods_description": "Electrophysiological data were collected and organized according to the Brain Imaging Data Structure (BIDS) standard for EEG. Data acquisition and preprocessing followed established protocols documented in the MNE-BIDS and EEG-BIDS frameworks.",
+  "source_hash": "2300ac49a355719d3f90304f822eedb7bf4d3d9f86f79798306d3d30a4834717"
 }
