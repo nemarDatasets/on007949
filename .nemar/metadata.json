@@ -2,7 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Auditory Streaming and Interoception",
-  "description": "This dataset comprises electroencephalography (EEG) recordings collected to investigate the relationship between auditory streaming—the perceptual organization of sound sequences—and interoceptive awareness. The study examines how the brain processes complex auditory stimuli and integrates this information with internal bodily signals, contributing to our understanding of sensory integration and conscious perception.",
+  "description": "EEG dataset on auditory streaming and interoception, collected at the University of Chicago by Veillette, Joshi, Li, and Nusbaum. Data are organized in BIDS format (BrainVision files) and released under a CC0 license.",
+  "methods_description": "EEG data were collected from participants during auditory streaming tasks. Data are organized according to the Brain Imaging Data Structure (BIDS) standard for electroencephalography.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,33 +20,17 @@
       "term": "auditory streaming"
     },
     {
-      "term": "interoception"
-    },
-    {
-      "term": "interoceptive awareness"
-    },
-    {
-      "term": "conscious perception"
-    },
-    {
-      "term": "Electroencephalography",
+      "term": "Interoception",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D065812"
     },
     {
-      "term": "Auditory Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D001307"
+      "term": "auditory perception"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007949",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on007949",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -63,6 +48,11 @@
       "identifier": "10.18112/openneuro.ds007949.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007949",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -77,7 +67,7 @@
     "eeg"
   ],
   "sizes": [
-    "7.8 GB (177 files)"
+    "7.24 GB (177 files)"
   ],
   "formats": [
     ".eeg",
@@ -89,6 +79,5 @@
     ".vmrk",
     ".yml"
   ],
-  "methods_description": "EEG data were collected from participants during auditory streaming tasks. Data are organized according to the Brain Imaging Data Structure (BIDS) standard for electroencephalography.",
   "source_hash": "2300ac49a355719d3f90304f822eedb7bf4d3d9f86f79798306d3d30a4834717"
 }
